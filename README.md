@@ -30,6 +30,7 @@ Thumbs.db
 *.esproj
 *.sublime-project
 *.sublime-workspace
+.codekit-cache
 .sass-cache
 .tmproj
 config.codekit
