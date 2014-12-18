@@ -1,39 +1,17 @@
 .gitignore
-=========
+==========
 
 
-#### # Mac OS files
+#### # OS
 ```
+*~
 ._*
 .DS_Store
 .localized
 .Spotlight-V100
 Icon
-```
-
-
-#### # Linux files
-```
-*~
-```
-
-
-#### # Windows files
-```
 Desktop.ini
 Thumbs.db
-```
-
-
-#### # Project files
-```
-*.esproj
-*.sublime-project
-*.sublime-workspace
-.codekit-cache
-.sass-cache
-.tmproj
-config.codekit
 ```
 
 
@@ -47,15 +25,31 @@ config.codekit
 ```
 
 
-#### # Packed files
+#### # Packages
 ```
 *.7z
 *.dmg
-*.gem
 *.gz
 *.iso
 *.jar
 *.rar
 *.tar
 *.zip
+```
+
+
+#### # Dev
+```
+*.esproj
+*.sublime-*
+.codekit-cache
+.sass-cache
+.tmproj
+config.codekit
+node_modules
+```
+
+#### # Project
+```
+build
 ```
