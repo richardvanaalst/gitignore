@@ -1,21 +1,39 @@
-#=–- OS -–=#
-*~
+# OS
 ._*
 .DS_Store
-.localized
-.Spotlight-V100
-Icon
-Desktop.ini
 Thumbs.db
 
-#=–- VCS -–=#
-.CVS
-.hg
-.hgignore
-.git
-.svn
+# IDE
+.cache
+.idea
+.project
+.settings
+.tmproj
+.vscode
+*.code-workspace
+*.esproj
+*.sublime-project
+*.sublime-workspace
 
-#=–- Packages -–=#
+# VCS
+.CVS
+.git
+.hg
+.svn
+CVS
+
+# Misc. always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# Packages
 *.7z
 *.dmg
 *.gz
@@ -25,14 +43,13 @@ Thumbs.db
 *.tar
 *.zip
 
-#=–- Dev -–=#
-*.esproj
-*.sublime-*
-.codekit-cache
-.sass-cache
-.tmproj
-config.codekit
-node_modules
+# General folders
+dist-sass/
+node_modules/
+coverage
 
-#=–- Project -–=#
-build
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
